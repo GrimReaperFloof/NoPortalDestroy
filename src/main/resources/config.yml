@@ -1,0 +1,10 @@
+#You can add material that you want to prevent from breaking here
+#You can see bukkit material id here https://papermc.io/javadocs/paper/1.12/org/bukkit/Material.html
+preventbreak:
+   - ENDER_PORTAL
+   - END_GATEWAY
+#  - PORTAL
+
+#Log console if someone trying to break
+logging: true
+   

@@ -1,0 +1,6 @@
+name: NoPortalDestroy
+main: io.github.fhadiel.NoPortalDestroy.Main
+version: ${project.version}
+author: FHero
+description: Prevent player from destroying end portal
+website: fhadiel.github.io
