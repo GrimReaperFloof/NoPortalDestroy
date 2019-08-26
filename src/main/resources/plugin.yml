@@ -2,5 +2,6 @@ name: NoPortalDestroy
 main: io.github.fhadiel.NoPortalDestroy.Main
 version: ${project.version}
 author: FHero
-description: Prevent player from destroying end portal
+description: Prevent player from destroying End Portals (and other blocks using bucket and dispenser methods)
 website: fhadiel.github.io
+api-version: 1.13

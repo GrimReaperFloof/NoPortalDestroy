@@ -1,10 +1,19 @@
-#You can add material that you want to prevent from breaking here
-#You can see bukkit material id here https://papermc.io/javadocs/paper/1.12/org/bukkit/Material.html
+# You can add material that you want to prevent from breaking here
+# You can see bukkit material id here https://papermc.io/javadocs/paper/1.12/org/bukkit/Material.html
 preventbreak:
-   - ENDER_PORTAL
+   - ENDER_PORTAL #1.12
+   - END_PORTAL #1.13
    - END_GATEWAY
 #  - PORTAL
 
-#Log console if someone trying to break
-logging: true
-   
+# items that will be prevented from being dispensed into preventbreak blocks
+preventdispensing:
+   - WATER_BUCKET
+   - LAVA_BUCKET
+   - COD_BUCKET #1.13
+   - SALMON_BUCKET #1.13
+   - PUFFERFISH_BUCKET #1.13
+   - TROPICAL_FISH_BUCKET #1.13
+
+# Log to console if someone is trying to break
+logging: false
